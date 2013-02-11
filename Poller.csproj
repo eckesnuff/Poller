@@ -90,6 +90,7 @@
     <Compile Include="Services\ISourceRepository.cs" />
     <Compile Include="Poller.cs" />
     <Compile Include="Services\NoLinksMessageGenerator.cs" />
+    <Compile Include="Services\ShortenedLinkMessageGenerator.cs" />
     <Compile Include="WindowsService.cs">
       <SubType>Component</SubType>
     </Compile>
