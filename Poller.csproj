@@ -35,8 +35,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="HipChat.Net">
-      <HintPath>..\packages\HipChat.Net.1.2\lib\HipChat.Net.dll</HintPath>
+    <Reference Include="HipChat.Net, Version=1.2.0.0, Culture=neutral, PublicKeyToken=85d27803db462816, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\HipChat.Net.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.TeamFoundation.Client, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -58,8 +59,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>lib\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="StructureMap">
-      <HintPath>..\packages\structuremap.2.6.4.1\lib\net40\StructureMap.dll</HintPath>
+    <Reference Include="StructureMap, Version=2.6.4.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\StructureMap.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
@@ -100,11 +102,13 @@
     <Compile Include="Services\Tfs.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="lib\HipChat.Net.dll" />
     <Content Include="lib\Microsoft.TeamFoundation.Client.dll" />
     <Content Include="lib\Microsoft.TeamFoundation.Common.dll" />
     <Content Include="lib\Microsoft.TeamFoundation.Common.Library.dll" />
     <Content Include="lib\Microsoft.TeamFoundation.VersionControl.Client.dll" />
     <Content Include="lib\Newtonsoft.Json.dll" />
+    <Content Include="lib\StructureMap.dll" />
     <Content Include="lib\System.Web.dll" />
   </ItemGroup>
   <ItemGroup>
