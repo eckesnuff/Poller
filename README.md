@@ -9,7 +9,7 @@ Poller is a windows service that polls a source repository and writes a summary 
 The included configuration file is configured to retrive changes from TFS and write the changes to Campfire
 
 ##Version
-Unknown ?.?.?
+1.1.0.0
 
 ##Configuration
 
